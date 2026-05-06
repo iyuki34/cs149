@@ -1,0 +1,29 @@
+   20  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   21  brew tap riscv/riscv
+   22  brew install riscv-tools
+   23  PATH=$PATH:/usr/local/opt/riscv-gnu-toolchain/bin
+   24  brew install qemu
+   25  cd ~
+   26  git clone git://g.csail.mit.edu/xv6-labs-2023
+   27  cd xv6-labs-2023
+   28  git commit -am 'my solution for util lab exercise 1'\n
+   29  make qemu
+   30  ls
+   31  make qemu
+   32  nano Makefile
+   33  nano Makefile
+   34  make qemu
+   35  nano Makefile
+   36  nano user/sleep.c
+   37  nano user/sleep.c
+   38  cat user/sleep.c
+   39  nano user/sleep.c
+   40  cat user/sleep.c
+   41  make qemu
+   42  make qemu
+   43  make qemu
+   44  make qemu
+   45  make clean
+   46  make
+   47  ./grade-lab-util sleep
+   48  fc -l 100 > worksheetB.log
